@@ -1,0 +1,61 @@
+
+#banner {
+	height:450px;
+}
+#banner_slider {
+	overflow:hidden;
+}
+#btnLeft,
+#btnRight {
+	width:55px;
+	height:110px;
+	position:absolute;
+	top:50%;
+	margin-top:-28px;
+	cursor:pointer;
+}
+#btnLeft {
+	left:0;
+	background:url(../images/index_slide_btn_left.png) no-repeat;
+}
+#btnRight {
+	right:0;
+	background:url(../images/index_slide_btn_right.png) no-repeat;
+}
+#sliders {
+	width:5640px;
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+.slide {
+	float:left;
+	position:relative;
+}
+.banner_caption {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	font-family:"Microsoft YaHei";
+	font-size:24px;
+}
+.banner_caption.black {
+	background-color:rgba(255,255,255,0.3);
+	color:#333;
+}
+.banner_caption.white {
+	background-color:rgba(0,0,0,0.3);
+	color:#fff;
+	right:0px;
+}
+.banner_caption h2 {
+	font-weight:normal;
+	margin:20px;
+}
+.banner_caption.black h2 {
+	margin-left:40px;
+}
+.banner_caption.white h2 {
+	margin-right:40px;
+	text-align:right;
+}

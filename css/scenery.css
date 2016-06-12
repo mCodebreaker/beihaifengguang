@@ -1,0 +1,44 @@
+#banner {
+	height:220px;
+}
+.items {
+	list-style:none;
+	overflow:hidden;
+	padding:0;
+}
+.items li{
+	width:410px;
+	margin-left:40px;
+	float:left;
+	font-family:"微软雅黑";
+}
+.items img {
+	width:410px;
+}
+.items h2 {
+	font-size: 21px;
+	margin-bottom: 20px;
+	text-align:center;
+}
+.items p {
+	font-size: 14px;
+	color: rgb(102, 102, 102);
+	min-height: 150px;
+	text-indent:2em;
+}
+
+/* readmore */
+.readmore {
+	position:absolute;
+	text-decoration:none;
+}
+.readmore div {
+	width:410px;
+	height:273px;
+	opacity:0;
+	background:#fff url(../images/scenery_readmore.png) 50% 40% no-repeat;
+	line-height:273px;
+	color:rgb(51,51,51);
+	font-size: 13px;
+	text-align: center;
+}

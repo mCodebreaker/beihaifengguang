@@ -1,0 +1,134 @@
+body {
+	padding:0;
+	margin:0;
+}
+
+.wrap {
+	width:100%;
+	height:100%;
+	background-image: url(../images/index_bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	overflow:hidden;
+}
+.main {
+	width: 940px;
+	margin:40px auto;
+	background-image:url(../images/content_bg.gif);
+	-webkit-box-shadow: 0 5px 15px #444;
+	box-shadow: 0 5px 15px #444;
+}
+
+/* banner */
+#banner {
+	position:relative;
+}
+#banner .logo {
+	width:260px;
+	height:110px;
+	position:absolute;
+	z-index:999;
+	left:30px;
+	top:20px;
+	background:url(../images/banner_logo.png) no-repeat;
+}
+#banner .logo.dark {
+	background:url(../images/banner_logo_dark.png) no-repeat;
+}
+
+/* 导航栏 */
+#nav {
+	margin-top:-25px;
+	margin-bottom: 50px;
+	position:relative;
+}
+#nav_root {
+	background: #000 url('../images/menu_bg.png') bottom repeat-x;
+	font-size: 16px;
+	font-family:"Microsoft YaHei";
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	-webkit-box-shadow: 0 1px 5px #333;
+	box-shadow: 0 1px 5px #333;
+	overflow: hidden;
+	width: 600px;
+}
+#nav_root li {
+	float:left;
+	width:150px;
+}
+#nav_root a {
+	color:#888;
+	display: block;
+	padding-top:13px;
+	padding-bottom:13px;
+	text-align:center;
+	text-decoration: none;
+}
+#nav_root li:hover > a {
+	color:#ccc;
+}
+#nav_root li a.active {
+	color:#fff;
+}
+/* 二级导航栏 */
+#nav_root li ul {
+	list-style:none;
+	position:absolute;
+	visibility:hidden;
+	background: rgba(34, 34, 34, 0.9);
+	padding:0;
+	z-index:10;
+}
+#nav_root li ul li {
+	border-bottom: 1px solid #555;
+	float: none;
+	font-size: 13px;
+	margin: 0;
+	text-align: left;
+}
+#nav_root li ul li a {
+	padding: 7px 40px;
+	text-align:left;
+}
+
+.title {
+	background: url('../images/heading-line.gif') center repeat-x;
+	text-align:center;
+}
+
+.title span {
+	background: url('../images/content_bg.gif');
+	display: inline-block;
+	padding: 0 25px;
+}
+
+#footer {
+	background: #eee;
+	color: #666;
+	font-size: 12px;
+	padding: 20px 50px;
+	text-shadow: 1px 1px 1px #ddd;
+	filter: dropshadow(color=#ddd, offx=1, offy=1);
+}
+
+#footer .logo {
+	background:url(../images/footer_logo.png) no-repeat;
+	width:120px;
+	height:54px;
+}
+
+#copyright {
+	background: #333;
+	color: #ccc;
+	font-size: 12px;
+	font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial;
+	padding: 15px 0;
+}
+
+.section {
+	width: 860px;
+	margin:0 auto;
+}
